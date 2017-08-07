@@ -31,10 +31,6 @@ In other words, if you read a textfile.txt where you have :
 
 >  Streams are useful because they allow us to read bits of large files as soon as they're available.
 
-### Efficient data flow :
-
-  * stream.pipe(): limits the buffering of data to acceptable levels
-  * highWaterMark: sets a threshold to stop reading data until it is consumed
 
 ## What are buffers?
 
